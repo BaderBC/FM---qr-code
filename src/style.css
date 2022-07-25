@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%)
+;
+}
+
+
+#qr-container {
+    background-color: #fff;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 28vh;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#qr-code {
+    height: 300px;
+    border-radius: 7px;
+}
+
+#heading {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#paragraph {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#footer {
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    top: 160px;
+    color: #0d1117;
+}
+
+#footer a {
+    color: hsl(228, 45%, 44%);
+}
